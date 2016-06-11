@@ -1,0 +1,114 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	color: #334352;
+	font-family: 'Slabo 27px', serif;
+	-webkit-font-smoothing: antialiased;
+}
+header {
+	background-color: #7CA3C7;
+	background-image: url('https://static.pexels.com/photos/103669/pexels-photo-103669.jpeg');
+	background-position: center;
+	background-repeat: no-repeat;
+	border-radius: 10px/30px;
+}
+
+h2{
+	padding: 15px;
+	text-align: center;
+	font-weight: lighter;
+}
+
+.headeritems {
+	float: right;
+	padding: 7rem 5rem 0 0;
+}
+
+.headeritems li {
+	text-align: center;
+	display: inline-block;
+	font-size: 1.2rem;
+	padding: 2px;
+	margin: 0.5rem;
+	color: #222222;
+}
+
+.headeritems li:hover {
+	background: #333333;
+	cursor: pointer;
+}
+
+.mastheadintro{
+	float: left;
+	margin: 0;
+	padding-bottom: 3rem;
+	padding-left: 1rem;
+	font-size: 5rem;
+}
+
+.masthead {
+	padding: 4em 0;
+}
+
+.mainsection{
+	margin-left: auto;
+  	margin-right: auto;
+  	margin-top: 2em;
+  	max-width: 38em;
+}
+.footersection {
+	text-align: center;
+	font-size: 2rem;
+}
+
+p {
+	text-align: center;
+}
+
+.social > li {
+  display: inline-block;
+  margin: 0.3rem;
+}
+
+.social{
+	padding-top: 2rem;
+}
+
+.social li:hover {
+	cursor: pointer;
+    color: #333333;
+    transition: background 0.2s, color 0.2s;
+}
+
+@media (min-width: 600px) {
+
+	body {
+		
+
+	}
+
+}
+@media (min-width: 1000px){
+	body {
+		
+	}
+}
+
+/* clearfix */
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
