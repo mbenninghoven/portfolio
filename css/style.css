@@ -8,6 +8,7 @@ body {
 	font-family: 'Slabo 27px', serif;
 	-webkit-font-smoothing: antialiased;
 }
+
 header {
 	background-color: #7CA3C7;
 	background-image: url('https://static.pexels.com/photos/103669/pexels-photo-103669.jpeg');
@@ -16,7 +17,7 @@ header {
 	border-radius: 10px/30px;
 }
 
-h2{
+h2 {
 	padding: 15px;
 	text-align: center;
 	font-weight: lighter;
@@ -37,11 +38,11 @@ h2{
 }
 
 .headeritems li:hover {
-	background: #333333;
 	cursor: pointer;
+	text-decoration: none;
 }
 
-.mastheadintro{
+.mastheadintro {
 	float: left;
 	margin: 0;
 	padding-bottom: 3rem;
@@ -53,15 +54,17 @@ h2{
 	padding: 4em 0;
 }
 
-.mainsection{
+.mainsection {
 	margin-left: auto;
   	margin-right: auto;
   	margin-top: 2em;
   	max-width: 38em;
 }
+
 .footersection {
 	text-align: center;
 	font-size: 2rem;
+	background-color: #334352;
 }
 
 p {
@@ -77,14 +80,37 @@ p {
 	padding-top: 2rem;
 }
 
-.social li:hover {
-	cursor: pointer;
-    color: #333333;
-    transition: background 0.2s, color 0.2s;
+a:-webkit-any-link {
+	text-decoration: none;
+}
+
+a:link {
+	color: #333333;
+}
+
+a:hover {
+	color: #333333;
+}
+
+a:active {
+	color: #477F6B;
+}
+
+a:visited {
+	color: #000000;
+}
+
+.images img {
+	margin: 20px;
+	border-style: groove;
+	border-width: 0.2px;
+	text-align: center;
+	padding: 0;
+	border-radius: 30px/30px;
 }
 
 @media (min-width: 600px) {
-
+	
 	body {
 		
 
