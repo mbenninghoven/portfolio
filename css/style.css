@@ -117,6 +117,11 @@ a:visited {
 	header {
 		border-radius: 10px/30px;
 		}
+	.images img {
+		margin: 2em auto;
+		width: 500px;
+		display: block;
+		}
 	}
 @media (min-width: 1000px){
 	.images img {
