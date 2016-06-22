@@ -9,12 +9,13 @@ body {
 	-webkit-font-smoothing: antialiased;
 }
 
+
 header {
 	background-color: #7CA3C7;
 	background-image: url('https://static.pexels.com/photos/103669/pexels-photo-103669.jpeg');
 	background-position: center;
 	background-repeat: no-repeat;
-	border-radius: 10px/30px;
+	
 }
 
 h2 {
@@ -24,8 +25,8 @@ h2 {
 }
 
 .headeritems {
-	float: right;
-	padding: 7rem 5rem 0 0;
+	padding: 7rem 0 0 0;
+	text-align: center;
 }
 
 .headeritems li {
@@ -33,7 +34,7 @@ h2 {
 	display: inline-block;
 	font-size: 1.2rem;
 	padding: 2px;
-	margin: 0.5rem;
+	margin: 0.4rem;
 	color: #222222;
 }
 
@@ -43,11 +44,11 @@ h2 {
 }
 
 .mastheadintro {
-	float: left;
+	text-align: center;
 	margin: 0;
 	padding-bottom: 3rem;
 	padding-left: 1rem;
-	font-size: 5rem;
+	font-size: 3rem;
 }
 
 .masthead {
@@ -58,13 +59,12 @@ h2 {
 	margin-left: auto;
   	margin-right: auto;
   	margin-top: 2em;
-  	max-width: 38em;
+  	max-width: 90%;
 }
 
 .footersection {
 	text-align: center;
 	font-size: 2rem;
-	background-color: #334352;
 }
 
 p {
@@ -101,25 +101,28 @@ a:visited {
 }
 
 .images img {
-	margin: 20px;
+	margin: 1em auto;
 	border-style: groove;
+	border-color: transparent;
 	border-width: 0.2px;
-	text-align: center;
 	padding: 0;
 	border-radius: 30px/30px;
+	width: 100%;
 }
 
 @media (min-width: 600px) {
-	
-	body {
-		
-
+	.mastheadintro {
+		font-size: 5rem;
+		}
+	header {
+		border-radius: 10px/30px;
+		}
 	}
-
-}
 @media (min-width: 1000px){
-	body {
-		
+	.images img {
+		margin: 2em auto;
+		width: 500px;
+		display: block;
 	}
 }
 
