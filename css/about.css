@@ -1,0 +1,16 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	color: #334352;
+	font-family: 'Slabo 27px', serif;
+	-webkit-font-smoothing: antialiased;
+}
+
+header {
+	background-image: url('https://static.pexels.com/photos/7974/pexels-photo.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+}
